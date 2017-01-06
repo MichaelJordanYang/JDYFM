@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E33151681E1F470B0062B09D /* JDYText.m in Sources */ = {isa = PBXBuildFile; fileRef = E33151671E1F470B0062B09D /* JDYText.m */; };
+		E331516B1E1F47170062B09D /* JDYtext2.m in Sources */ = {isa = PBXBuildFile; fileRef = E331516A1E1F47170062B09D /* JDYtext2.m */; };
+		E331516E1E1F78270062B09D /* UIView+FLMValueOfFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = E331516D1E1F78270062B09D /* UIView+FLMValueOfFrame.m */; };
 		E38DB5601E1B927B00B67AFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E38DB55F1E1B927B00B67AFD /* main.m */; };
 		E38DB5631E1B927B00B67AFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E38DB5621E1B927B00B67AFD /* AppDelegate.m */; };
 		E38DB5691E1B927B00B67AFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38DB5671E1B927B00B67AFD /* Main.storyboard */; };
@@ -17,9 +20,18 @@
 		E3F77EA51E1B9D9D00C7AA6B /* JDYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F77EA41E1B9D9D00C7AA6B /* JDYTabBar.m */; };
 		E3F77EA81E1B9E2200C7AA6B /* JDYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F77EA71E1B9E2200C7AA6B /* JDYNavigationController.m */; };
 		E3F77EAB1E1BA89900C7AA6B /* UIImage+JDYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F77EAA1E1BA89900C7AA6B /* UIImage+JDYImage.m */; };
+		E3F77EAE1E1CA74800C7AA6B /* JDYMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F77EAD1E1CA74800C7AA6B /* JDYMiddleView.m */; };
+		E3F77EB11E1CC4A000C7AA6B /* CALayer+JDYPauseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F77EB01E1CC4A000C7AA6B /* CALayer+JDYPauseAnimation.m */; };
+		E3F77EB31E1CC7E500C7AA6B /* JDYMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F77EB21E1CC7E500C7AA6B /* JDYMiddleView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E33151661E1F470B0062B09D /* JDYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYText.h; sourceTree = "<group>"; };
+		E33151671E1F470B0062B09D /* JDYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYText.m; sourceTree = "<group>"; };
+		E33151691E1F47170062B09D /* JDYtext2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYtext2.h; sourceTree = "<group>"; };
+		E331516A1E1F47170062B09D /* JDYtext2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYtext2.m; sourceTree = "<group>"; };
+		E331516C1E1F78270062B09D /* UIView+FLMValueOfFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FLMValueOfFrame.h"; sourceTree = "<group>"; };
+		E331516D1E1F78270062B09D /* UIView+FLMValueOfFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FLMValueOfFrame.m"; sourceTree = "<group>"; };
 		E38DB55B1E1B927B00B67AFD /* JDYFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDYFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38DB55F1E1B927B00B67AFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E38DB5611E1B927B00B67AFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
@@ -38,6 +50,11 @@
 		E3F77EA71E1B9E2200C7AA6B /* JDYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYNavigationController.m; sourceTree = "<group>"; };
 		E3F77EA91E1BA89900C7AA6B /* UIImage+JDYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JDYImage.h"; sourceTree = "<group>"; };
 		E3F77EAA1E1BA89900C7AA6B /* UIImage+JDYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JDYImage.m"; sourceTree = "<group>"; };
+		E3F77EAC1E1CA74800C7AA6B /* JDYMiddleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYMiddleView.h; sourceTree = "<group>"; };
+		E3F77EAD1E1CA74800C7AA6B /* JDYMiddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYMiddleView.m; sourceTree = "<group>"; };
+		E3F77EAF1E1CC4A000C7AA6B /* CALayer+JDYPauseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+JDYPauseAnimation.h"; sourceTree = "<group>"; };
+		E3F77EB01E1CC4A000C7AA6B /* CALayer+JDYPauseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+JDYPauseAnimation.m"; sourceTree = "<group>"; };
+		E3F77EB21E1CC7E500C7AA6B /* JDYMiddleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDYMiddleView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +89,10 @@
 			children = (
 				E38DB5761E1B96B900B67AFD /* Classes */,
 				E38DB56F1E1B927B00B67AFD /* Info.plist */,
+				E33151661E1F470B0062B09D /* JDYText.h */,
+				E33151671E1F470B0062B09D /* JDYText.m */,
+				E33151691E1F47170062B09D /* JDYtext2.h */,
+				E331516A1E1F47170062B09D /* JDYtext2.m */,
 				E38DB55E1E1B927B00B67AFD /* Supporting Files */,
 			);
 			path = JDYFM;
@@ -132,6 +153,9 @@
 				E38DB5831E1B99F300B67AFD /* JDYNavBar.m */,
 				E3F77EA31E1B9D9D00C7AA6B /* JDYTabBar.h */,
 				E3F77EA41E1B9D9D00C7AA6B /* JDYTabBar.m */,
+				E3F77EAC1E1CA74800C7AA6B /* JDYMiddleView.h */,
+				E3F77EAD1E1CA74800C7AA6B /* JDYMiddleView.m */,
+				E3F77EB21E1CC7E500C7AA6B /* JDYMiddleView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -155,8 +179,12 @@
 		E38DB57C1E1B96B900B67AFD /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				E331516C1E1F78270062B09D /* UIView+FLMValueOfFrame.h */,
+				E331516D1E1F78270062B09D /* UIView+FLMValueOfFrame.m */,
 				E3F77EA91E1BA89900C7AA6B /* UIImage+JDYImage.h */,
 				E3F77EAA1E1BA89900C7AA6B /* UIImage+JDYImage.m */,
+				E3F77EAF1E1CC4A000C7AA6B /* CALayer+JDYPauseAnimation.h */,
+				E3F77EB01E1CC4A000C7AA6B /* CALayer+JDYPauseAnimation.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -242,6 +270,7 @@
 				E38DB56E1E1B927B00B67AFD /* LaunchScreen.storyboard in Resources */,
 				E38DB56B1E1B927B00B67AFD /* Assets.xcassets in Resources */,
 				E38DB5691E1B927B00B67AFD /* Main.storyboard in Resources */,
+				E3F77EB31E1CC7E500C7AA6B /* JDYMiddleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +283,12 @@
 			files = (
 				E3F77EA51E1B9D9D00C7AA6B /* JDYTabBar.m in Sources */,
 				E38DB5811E1B97A300B67AFD /* JDYTabBarController.m in Sources */,
+				E33151681E1F470B0062B09D /* JDYText.m in Sources */,
 				E38DB5631E1B927B00B67AFD /* AppDelegate.m in Sources */,
+				E3F77EB11E1CC4A000C7AA6B /* CALayer+JDYPauseAnimation.m in Sources */,
+				E3F77EAE1E1CA74800C7AA6B /* JDYMiddleView.m in Sources */,
+				E331516B1E1F47170062B09D /* JDYtext2.m in Sources */,
+				E331516E1E1F78270062B09D /* UIView+FLMValueOfFrame.m in Sources */,
 				E3F77EA81E1B9E2200C7AA6B /* JDYNavigationController.m in Sources */,
 				E38DB5601E1B927B00B67AFD /* main.m in Sources */,
 				E3F77EAB1E1BA89900C7AA6B /* UIImage+JDYImage.m in Sources */,
@@ -376,6 +410,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = UHFWN7K934;
 				INFOPLIST_FILE = JDYFM/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -389,6 +424,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = UHFWN7K934;
 				INFOPLIST_FILE = JDYFM/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

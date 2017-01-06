@@ -10,7 +10,7 @@
 
 @implementation UIImage (JDYImage)
 
-+ (UIImage *)originImageWithName:(NSString *)name{
++ (UIImage *)imageWithOriginImageWithName:(NSString *)name{
     return [[UIImage imageNamed:name] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 }
 

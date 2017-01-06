@@ -67,11 +67,58 @@
  */
 - (void)addChildVC: (UIViewController *)vc normalImageName: (NSString *)normalImageName selectedImageName: (NSString *)selectedImageName isRequiredNavController: (BOOL)isRequired{
     
+    if (isRequired) {
+        JDYNavigationController *nav = [[JDYNavigationController alloc]initWithRootViewController:vc];
+        nav.tabBarItem = [[UITabBarItem alloc] initWithTitle:nil image:[UIImage imageWithOriginImageWithName:normalImageName] selectedImage:[UIImage imageWithOriginImageWithName:selectedImageName]];
+        
+        [self addChildViewController:nav];
+    }else{
+        [self addChildViewController:vc];
+    }
+    
 }
 
-
+///设置tabBar交换KVC_tabBar
 - (void)setUpTabBar{
     [self setValue:[[JDYTabBar alloc] init] forKey:@"tabBar"];
 }
 
+
+- (void)setSelectedIndex:(NSUInteger)selectedIndex{
+    [super setSelectedIndex:selectedIndex];
+    
+    UIViewController *vc = self.childViewControllers[selectedIndex];
+    
+    if (vc.view.tag == 666) {
+        vc.view.tag = 888;
+    
+    }
+    
+}
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -10,7 +10,7 @@
 
 @interface UIImage (JDYImage)
 
-+ (UIImage *)originImageWithName: (NSString *)name;
++ (UIImage *)imageWithOriginImageWithName: (NSString *)name;
 
 - (UIImage *)circleImage;
 
